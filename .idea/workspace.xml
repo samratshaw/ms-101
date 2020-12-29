@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a426448-fae6-49c8-a368-e11f0b722e7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/msInitializer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/msInitializer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurations/product-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/product-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -106,7 +110,7 @@
       <workItem from="1608449136315" duration="379000" />
       <workItem from="1608464381225" duration="27000" />
       <workItem from="1608476894995" duration="525000" />
-      <workItem from="1609233319656" duration="13347000" />
+      <workItem from="1609233319656" duration="14822000" />
     </task>
     <servers />
   </component>
