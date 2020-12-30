@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms-spring-config-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ms-spring-config-server
+  template:
+    metadata:
+      labels:
+        app: ms-spring-config-server
+    spec:
+      containers:
+        - name: ms-spring-config-server
+          image: spring-config-server:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080

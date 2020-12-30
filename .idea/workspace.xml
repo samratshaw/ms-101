@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a426448-fae6-49c8-a368-e11f0b722e7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurations/product-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/product-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurations/product-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/commands.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1llxv8S3av6u5xr1EotutQBlAtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -45,10 +46,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/configurations" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/configurations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/3_deploy_product_service/spring-cloud-config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -111,6 +120,7 @@
       <workItem from="1608464381225" duration="27000" />
       <workItem from="1608476894995" duration="525000" />
       <workItem from="1609233319656" duration="14822000" />
+      <workItem from="1609306784762" duration="13443000" />
     </task>
     <servers />
   </component>
