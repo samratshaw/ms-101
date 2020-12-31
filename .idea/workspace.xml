@@ -5,11 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a426448-fae6-49c8-a368-e11f0b722e7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/svc-product/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/svc-product/service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurations/product-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/product-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/commands.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/msInitializer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/msInitializer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/product-service/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/product-service/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/spring-config-server/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/spring-cloud-config/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/spring-config-server/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/3-deploy-product-service/spring-cloud-config/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/src/main/java/com/samrat/ms/core/SvcProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/java/com/samrat/ms/core/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-service/src/test/java/com/samrat/ms/core/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/src/test/java/com/samrat/ms/core/SvcProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/svc-product/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/src/main/java/com/samrat/ms/core/SpringConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/src/main/java/com/samrat/ms/core/SpringCloudConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/src/main/resources/configurations/product-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/spring-config-server/src/test/java/com/samrat/ms/core/SpringConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/spring-cloud-config/src/test/java/com/samrat/ms/core/SpringCloudConfigApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +56,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1llxv8S3av6u5xr1EotutQBlAtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -34,6 +66,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -45,10 +78,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservices/spring-cloud-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservices/spring-cloud-config" />
+      <recent name="$PROJECT_DIR$/microservices/spring-cloud-config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservices/svc-product/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservices/svc-product/src/main/java/com/samrat/ms/core" />
+      <recent name="$PROJECT_DIR$/microservices/svc-product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/3_deploy_product_service/spring-cloud-config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -111,10 +156,16 @@
       <workItem from="1608464381225" duration="27000" />
       <workItem from="1608476894995" duration="525000" />
       <workItem from="1609233319656" duration="14822000" />
+      <workItem from="1609306784762" duration="14019000" />
+      <workItem from="1609397394469" duration="280000" />
+      <workItem from="1609408586071" duration="6627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
