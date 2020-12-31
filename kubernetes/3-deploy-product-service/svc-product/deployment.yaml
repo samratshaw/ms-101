@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms-svc-product
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ms-svc-product
+  template:
+    metadata:
+      labels:
+        app: ms-svc-product
+    spec:
+      containers:
+        - name: ms-svc-product
+          image: svc-product:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
